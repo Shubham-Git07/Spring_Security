@@ -9,7 +9,11 @@ import org.springframework.security.config.annotation.web.configurers.AuthorizeH
 import org.springframework.security.config.annotation.web.configurers.CsrfConfigurer;
 import org.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.core.userdetails.User;
 
 @Configuration
 @EnableWebSecurity
@@ -63,24 +67,15 @@ public class SecurityConfig {
 
 	// now we want our username and password check from database for multiple users
 	// here we have hard coded values
-//	@Bean
-//	public UserDetailsService userDetailsService() {
-//		UserDetails user1 = org.springframework.security.core.userdetails.User
-//				.withDefaultPasswordEncoder()
-//				.username("kiran")
-//				.password("k@123")
-//				.roles("USER")
-//				.build();
-//		
-//		UserDetails user2 = org.springframework.security.core.userdetails.User
-//				.withDefaultPasswordEncoder()
-//				.username("vaibhav")
-//				.password("v@123")
-//				.roles("ADMIN")
-//				.build();
-//		
-//		return new InMemoryUserDetailsManager(user1, user2);
-//	}
+	@Bean
+	public UserDetailsService userDetailsService() {
+		UserDetails user1 = User.withDefaultPasswordEncoder().username("kiran").password("k@123").roles("USER").build();
+
+		UserDetails user2 = User.withDefaultPasswordEncoder().username("vaibhav").password("v@123").roles("ADMIN")
+				.build();
+
+		return new InMemoryUserDetailsManager(user1, user2);
+	}
 
 	// now deal with actual database
 
