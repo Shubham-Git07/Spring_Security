@@ -1,6 +1,5 @@
 package com.demo.config;
 
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
@@ -8,16 +7,9 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer;
 import org.springframework.security.config.annotation.web.configurers.CsrfConfigurer;
-import org.springframework.security.config.annotation.web.configurers.HttpBasicConfigurer;
 import org.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.web.bind.annotation.RequestBody;
-
-import jakarta.websocket.Session;
 
 @Configuration
 @EnableWebSecurity
@@ -36,7 +28,7 @@ public class SecurityConfig {
 			}
 		};
 		http.csrf(csrfCust);
-		// http.csrf(Customizer -> Customizer.disable());
+		// http.csrf(Customizer -> Customizer.disable()); // lambda expression
 
 		// login authorization
 		Customizer<AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry> autho = new Customizer<AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry>() {
@@ -46,19 +38,21 @@ public class SecurityConfig {
 				t.anyRequest().authenticated();
 			}
 		};
-		http.authorizeHttpRequests(autho);
+		http.authorizeHttpRequests(autho); // here we are authentication the user but where user will give username and
+											// password so we need to use form login
 //		http.authorizeHttpRequests(request -> request.anyRequest().authenticated()); // using lambda expression
 
 //		http.formLogin(Customizer.withDefaults());
 
 		http.httpBasic(Customizer.withDefaults()); // withDefaults() is static method in functional interface Customizer
 
+		// now as we disabled csrf token then try to make http stateless
+		// so that we should create new session id every time
 		// create new session each time
 		Customizer<SessionManagementConfigurer<HttpSecurity>> sessionManagementCustomizer = new Customizer<SessionManagementConfigurer<HttpSecurity>>() {
 			@Override
 			public void customize(SessionManagementConfigurer<HttpSecurity> t) {
 				t.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-
 			}
 		};
 		http.sessionManagement(sessionManagementCustomizer);
@@ -87,9 +81,8 @@ public class SecurityConfig {
 //		
 //		return new InMemoryUserDetailsManager(user1, user2);
 //	}
-	
+
 	// now deal with actual database
-	
 
 }
 

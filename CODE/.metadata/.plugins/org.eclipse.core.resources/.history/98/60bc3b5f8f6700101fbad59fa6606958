@@ -1,0 +1,90 @@
+package com.demo.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer;
+import org.springframework.security.config.annotation.web.configurers.CsrfConfigurer;
+import org.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.web.SecurityFilterChain;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+	// here we are using our own filterChain and disabling default spring security
+	// filter chain
+
+	@Bean // Tells Spring: call this method & manage the returned object
+	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
+		// to disable csrfToken
+		Customizer<CsrfConfigurer<HttpSecurity>> csrfCust = new Customizer<CsrfConfigurer<HttpSecurity>>() {
+			@Override
+			public void customize(CsrfConfigurer<HttpSecurity> t) {
+				t.disable();
+			}
+		};
+		http.csrf(csrfCust);
+		// http.csrf(Customizer -> Customizer.disable()); // lambda expression
+
+		// login authorization
+		Customizer<AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry> autho = new Customizer<AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry>() {
+			@Override
+			public void customize(
+					AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry t) {
+				t.anyRequest().authenticated();
+			}
+		};
+		http.authorizeHttpRequests(autho); // here we are authentication the user but where user will give username and
+											// password so we need to use form login
+//		http.authorizeHttpRequests(request -> request.anyRequest().authenticated()); // using lambda expression
+
+//		http.formLogin(Customizer.withDefaults());
+
+		http.httpBasic(Customizer.withDefaults()); // withDefaults() is static method in functional interface Customizer
+
+		// now as we disabled csrf token then try to make http stateless
+		// so that we should create new session id every time
+		// create new session each time
+		Customizer<SessionManagementConfigurer<HttpSecurity>> sessionManagementCustomizer = new Customizer<SessionManagementConfigurer<HttpSecurity>>() {
+			@Override
+			public void customize(SessionManagementConfigurer<HttpSecurity> t) {
+				t.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+			}
+		};
+		http.sessionManagement(sessionManagementCustomizer);
+//		http.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
+
+		return http.build();
+	}
+
+	// now we want our username and password check from database for multiple users
+	// here we have hard coded values
+//	@Bean
+//	public UserDetailsService userDetailsService() {
+//		UserDetails user1 = org.springframework.security.core.userdetails.User
+//				.withDefaultPasswordEncoder()
+//				.username("kiran")
+//				.password("k@123")
+//				.roles("USER")
+//				.build();
+//		
+//		UserDetails user2 = org.springframework.security.core.userdetails.User
+//				.withDefaultPasswordEncoder()
+//				.username("vaibhav")
+//				.password("v@123")
+//				.roles("ADMIN")
+//				.build();
+//		
+//		return new InMemoryUserDetailsManager(user1, user2);
+//	}
+
+	// now deal with actual database
+
+}
+
+// http.build() = builds and returns the SecurityFilterChain object which Spring Security uses internally 
+// to protect HTTP requests.
