@@ -1,8 +1,13 @@
 package com.demo.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer;
@@ -11,6 +16,7 @@ import org.springframework.security.config.annotation.web.configurers.SessionMan
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.core.userdetails.User;
@@ -18,6 +24,9 @@ import org.springframework.security.core.userdetails.User;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
+	@Autowired
+	private UserDetailsService userDetailsService;
+
 	// here we are using our own filterChain and disabling default spring security
 	// filter chain
 
@@ -67,17 +76,30 @@ public class SecurityConfig {
 
 	// now we want our username and password check from database for multiple users
 	// here we have hard coded values
-	@Bean
-	public UserDetailsService userDetailsService() {
-		UserDetails user1 = User.withDefaultPasswordEncoder().username("kiran").password("k@123").roles("USER").build();
-
-		UserDetails user2 = User.withDefaultPasswordEncoder().username("vaibhav").password("v@123").roles("ADMIN")
-				.build();
-
-		return new InMemoryUserDetailsManager(user1, user2);
-	}
+//	@Bean
+//	public UserDetailsService userDetailsService() {
+//		UserDetails user1 = User.withDefaultPasswordEncoder().username("kiran").password("k@123").roles("USER").build();
+//
+//		UserDetails user2 = User.withDefaultPasswordEncoder().username("vaibhav").password("v@123").roles("ADMIN")
+//				.build();
+//
+//		return new InMemoryUserDetailsManager(user1, user2);
+//	}
 
 	// now deal with actual database
+	@Bean
+	public AuthenticationProvider authenticationProvider() {
+		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance());
+		provider.setUserDetailsService(userDetailsService);
+		return provider;
+	}
+
+	@Bean
+	public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
+		return http.getSharedObject(AuthenticationManagerBuilder.class).authenticationProvider(authenticationProvider())
+				.build();
+	}
 
 }
 
