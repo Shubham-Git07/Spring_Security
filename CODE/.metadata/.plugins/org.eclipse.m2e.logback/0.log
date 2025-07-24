@@ -144,3 +144,186 @@
 2025-07-23 20:14:07,722 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-23 20:14:07,734 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-07-23 20:14:07,740 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 09:39:41,210 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-24 09:45:00,846 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 09:45:00,881 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 09:45:00,894 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 09:47:25,417 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 09:47:25,833 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 09:47:25,846 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:20:18,027 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:20:18,145 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:20:18,163 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:20:32,249 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:20:32,271 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:20:32,282 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:20:43,579 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:20:43,605 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:20:43,613 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:22:03,190 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:22:03,201 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:22:03,208 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:22:47,370 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:22:47,380 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:22:47,387 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:23:02,039 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:23:02,049 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:23:02,056 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:29:28,953 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:29:28,969 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:29:28,976 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:40:29,428 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:40:29,458 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:40:29,468 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:51:01,537 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:51:01,559 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:51:01,566 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:51:42,723 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:51:42,731 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:51:42,736 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:52:19,962 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:52:19,970 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:52:19,976 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:53:15,067 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:53:15,106 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:53:15,113 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:53:47,356 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:53:47,372 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:53:47,378 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:53:50,920 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:53:50,928 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:53:50,934 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 10:54:45,291 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 10:54:45,307 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 10:54:45,315 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:13:12,407 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:13:12,458 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:13:12,466 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:13:41,019 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:13:41,081 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:13:41,087 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:13:58,813 [Worker-37: Launching SpringSecurity - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:13:58,916 [Worker-37: Launching SpringSecurity - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:13:58,924 [Worker-37: Launching SpringSecurity - SpringSecurityApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:15:18,038 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:15:18,076 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:15:18,084 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:36:39,483 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:36:39,539 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:36:39,546 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:40:52,304 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:40:52,319 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:40:52,325 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:51:01,018 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:51:01,030 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:51:01,035 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 11:57:17,549 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 11:57:17,576 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 11:57:17,582 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:03:48,211 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:03:48,252 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:03:48,258 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:04:48,933 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:04:48,976 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:04:48,985 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:07:26,512 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-07-24 12:07:41,668 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [354])
+2025-07-24 12:07:41,672 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2025-07-24 12:07:41,679 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2025-07-24 12:07:41,680 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2025-07-24 12:07:41,680 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2025-07-24 12:07:41,681 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2025-07-24 12:07:41,681 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2025-07-24 12:07:41,682 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2025-07-24 12:07:41,682 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2025-07-24 12:07:41,682 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2025-07-24 12:07:41,683 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2025-07-24 12:07:41,683 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2025-07-24 12:07:41,683 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2025-07-24 12:07:41,684 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2025-07-24 12:07:41,685 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2025-07-24 12:07:41,685 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2025-07-24 12:07:41,686 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2025-07-24 12:07:41,687 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2025-07-24 12:07:41,687 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2025-07-24 12:07:41,688 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2025-07-24 12:07:41,689 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2025-07-24 12:07:41,689 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2025-07-24 12:07:41,690 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2025-07-24 12:07:41,690 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2025-07-24 12:07:41,691 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2025-07-24 12:07:41,692 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2025-07-24 12:07:41,693 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2025-07-24 12:07:41,694 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2025-07-24 12:07:41,695 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2025-07-24 12:07:41,696 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2025-07-24 12:07:41,696 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2025-07-24 12:07:41,697 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2025-07-24 12:07:41,698 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2025-07-24 12:07:41,699 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2025-07-24 12:07:41,699 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2025-07-24 12:07:41,700 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2025-07-24 12:07:41,700 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2025-07-24 12:07:41,701 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2025-07-24 12:07:41,701 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2025-07-24 12:07:41,702 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2025-07-24 12:07:41,703 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2025-07-24 12:07:41,703 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2025-07-24 12:07:41,704 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2025-07-24 12:07:41,706 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [27])
+2025-07-24 12:07:41,707 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2025-07-24 12:07:41,708 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [584])
+2025-07-24 12:07:41,709 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\slf4j.api_2.0.12.jar
+2025-07-24 12:07:41,711 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [44])
+2025-07-24 12:07:41,712 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-07-24 12:07:41,713 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [40])
+2025-07-24 12:07:41,714 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-07-24 12:07:41,714 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [75])
+2025-07-24 12:07:41,715 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2025-07-24 12:07:41,716 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [77])
+2025-07-24 12:07:41,717 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-07-24 12:07:41,717 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [81])
+2025-07-24 12:07:41,719 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2025-07-24 12:07:41,719 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [29])
+2025-07-24 12:07:41,720 [Worker-63: Launching SpringSecurity] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Hp\Downloads\sts-4.22.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-07-24 12:07:41,727 [Worker-63: Launching SpringSecurity] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity":
+2025-07-24 12:07:41,728 [Worker-63: Launching SpringSecurity] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2025-07-24 12:16:26,599 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:16:26,610 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:16:26,615 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:17:18,076 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:17:18,086 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:17:18,090 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:17:27,420 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:17:27,431 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:17:27,437 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:48:57,372 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:48:57,421 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:48:57,429 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:49:23,511 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:49:23,570 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:49:23,576 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:49:50,193 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:49:50,313 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:49:50,318 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:50:05,138 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:50:05,160 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:50:05,164 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:55:08,780 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:55:08,788 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:55:08,805 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:55:37,811 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:55:37,820 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:55:37,825 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:59:31,364 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:59:31,375 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:59:31,380 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 12:59:45,929 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 12:59:45,939 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 12:59:45,944 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 13:16:27,374 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 13:16:27,419 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 13:16:27,425 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources
+2025-07-24 13:19:16,702 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-24 13:19:16,712 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 13:19:16,715 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JAVA_WORKSPACE\AdvJAVA\SpringSecurity\CODE\SpringSecurity\src\test\resources

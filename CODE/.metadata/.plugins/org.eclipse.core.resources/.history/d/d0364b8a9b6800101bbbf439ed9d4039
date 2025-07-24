@@ -94,7 +94,7 @@ public class SecurityConfig {
 		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
 		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // here we are not using any password encoder
 		// now i want to customize UserDetailsService not use default one.
-		provider.setUserDetailsService(userDetailsService); // tells to verify username and password from userDetailsService
+		provider.setUserDetailsService(userDetailsService); // verify username and password from userDetailsService
 		
 		return provider;
 	}

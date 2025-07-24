@@ -13,8 +13,8 @@ import com.demo.Repository.UserRepo;
 @Service
 public class MyUserDetailsService implements UserDetailsService {
 
-	// now verify username and password from database
-	// so now we need repo layer to get data from database
+	// now fetch username and password from database
+	
 	@Autowired
 	private UserRepo repo;
 

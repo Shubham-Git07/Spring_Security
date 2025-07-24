@@ -89,21 +89,17 @@ public class SecurityConfig {
 	// now deal with actual database
 	@Bean
 	public AuthenticationProvider authenticationProvider() {
-		// there are many authentication provider
-		// to deal with database we have DaoAuthenticationProvider
 		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // here we are not using any password encoder
-		// now i want to customize UserDetailsService not use default one.
-		provider.setUserDetailsService(userDetailsService); // tells to verify username and password from userDetailsService
-		
+		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance());
+		provider.setUserDetailsService(userDetailsService);
 		return provider;
 	}
 
-//	@Bean
-//	public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
-//		return http.getSharedObject(AuthenticationManagerBuilder.class).authenticationProvider(authenticationProvider())
-//				.build();
-//	}
+	@Bean
+	public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
+		return http.getSharedObject(AuthenticationManagerBuilder.class).authenticationProvider(authenticationProvider())
+				.build();
+	}
 
 }
 
