@@ -95,9 +95,7 @@ public class SecurityConfig {
 		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // here we are not using any password encoder
 		// now i want to customize UserDetailsService not use default one.
 		provider.setUserDetailsService(userDetailsService); // tells to verify username and password from userDetailsService
-		// so here we provide reference of UserDetailsService 
-		// since it is interface we need to provide implementation of it
-		// which we provided in MyUserDetailsService
+		
 		return provider;
 	}
 
