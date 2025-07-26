@@ -8,6 +8,7 @@ import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer;
@@ -16,9 +17,11 @@ import org.springframework.security.config.annotation.web.configurers.SessionMan
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.core.userdetails.User;
 
 @Configuration
@@ -26,6 +29,9 @@ import org.springframework.security.core.userdetails.User;
 public class SecurityConfig {
 	@Autowired
 	private UserDetailsService userDetailsService;
+
+	@Autowired
+	private JwtFilter jwtFilter;
 
 	// here we are using our own filterChain and disabling default spring security
 	// filter chain
@@ -48,7 +54,7 @@ public class SecurityConfig {
 			@Override
 			public void customize(
 					AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry t) {
-				t.anyRequest().authenticated();
+				t.requestMatchers("register", "login").permitAll().anyRequest().authenticated();
 			}
 		};
 		http.authorizeHttpRequests(autho); // here we are authentication the user but where user will give username and
@@ -71,6 +77,7 @@ public class SecurityConfig {
 		http.sessionManagement(sessionManagementCustomizer);
 //		http.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 
+		http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 		return http.build();
 	}
 
@@ -92,20 +99,22 @@ public class SecurityConfig {
 		// there are many authentication provider
 		// to deal with database we have DaoAuthenticationProvider
 		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // here we are not using any password encoder
+//		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // here we are not using any password encoder
+		provider.setPasswordEncoder(new BCryptPasswordEncoder(10)); // when user try to access the data we try to encode
+																	// the password
 		// now i want to customize UserDetailsService not use default one.
-		provider.setUserDetailsService(userDetailsService); // tells to verify username and password from userDetailsService
-		// so here we provide reference of UserDetailsService 
+		provider.setUserDetailsService(userDetailsService); // tells to verify username and password from
+															// userDetailsService
+		// so here we provide reference of UserDetailsService
 		// since it is interface we need to provide implementation of it
 		// which we provided in MyUserDetailsService
 		return provider;
 	}
 
-//	@Bean
-//	public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
-//		return http.getSharedObject(AuthenticationManagerBuilder.class).authenticationProvider(authenticationProvider())
-//				.build();
-//	}
+	@Bean
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
+		return config.getAuthenticationManager();
+	}
 
 }
 
