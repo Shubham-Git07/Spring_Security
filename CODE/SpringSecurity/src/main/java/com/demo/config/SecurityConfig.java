@@ -77,7 +77,15 @@ public class SecurityConfig {
 		http.sessionManagement(sessionManagementCustomizer);
 //		http.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 
+		// after login we are again asking for username and password to access methods
+		// like getAllStudents
+		// which is not right way because after login we should be able to access all
+		// resources
+		// here we are adding jwtFilter before UsernamePasswordAuthenticationFilter so
+		// it will validate token
+		// if token validates then it will skip UPAF filter check
 		http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+
 		return http.build();
 	}
 
@@ -111,9 +119,13 @@ public class SecurityConfig {
 		return provider;
 	}
 
+	// till now AuthenticationManager was handling AuthenticationProvider internally
+	// now we want to handle AuthenticationManager by ourself
+	// to provide our own implementation create a bean of AuthenticationManager
 	@Bean
 	public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
-		return config.getAuthenticationManager();
+		return config.getAuthenticationManager(); // we got a hold of authenticationManager
+		// AuthenticationManager will talk to AuthenticationProvider
 	}
 
 }
